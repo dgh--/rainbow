@@ -1,0 +1,29 @@
+body {
+  background: url('/img/bg.png');
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#contentwrapper {
+  width: 840px;
+  margin-left:  auto;
+  margin-right: auto;
+  background-color: rgba(55, 55, 55, 0.4);
+}
+
+canvas {
+  border-radius: 5px;
+  box-shadow   : 1px 1px 1px 1px white;
+}
+
+#block1, #block2, #block3, #block4 {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align:center;
+}
+
+body{
